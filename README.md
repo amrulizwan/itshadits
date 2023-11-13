@@ -1,16 +1,11 @@
 # itshadits
 
-A new Flutter project.
+![alt text](https://github.com/amrulizwan/itshadits/blob/main/Green%20Gradient%20Application%20Showcase%20Presentation.png)
 
-## Getting Started
+## About
 
-This project is a starting point for a Flutter application.
+Aplikasi baca hadits lengkap dengan terjemahan bahasa Indonesia!
 
-A few resources to get you started if this is your first Flutter project:
+API : [HERE!](https://hadiths-brown.vercel.app/)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ME? : [AMRUL IZWAN](https://amrulizwan.my.id)
