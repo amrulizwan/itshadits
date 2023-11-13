@@ -6,6 +6,8 @@
 
 Aplikasi baca hadits lengkap dengan terjemahan bahasa Indonesia!
 
+Demo APK : [DOWNLOAD](https://github.com/amrulizwan/itshadits/releases/download/release/app-release.apk)
+
 API : [HERE!](https://hadiths-brown.vercel.app/)
 
 ME? : [AMRUL IZWAN](https://amrulizwan.my.id)
