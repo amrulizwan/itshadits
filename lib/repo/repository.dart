@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import 'package:itshadits/model/book_model.dart';
 
 class Repository {
-  final _baseUrl = 'https://hadiths-brown.vercel.app/books';
+  final _baseUrl = 'https://hadiths-brown.vercel.app/books/';
 
   Future getData() async {
     try {

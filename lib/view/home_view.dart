@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:itshadits/model/book_model.dart';
 import 'package:itshadits/repo/repository.dart';
+import 'package:itshadits/view/about.dart';
 import 'package:itshadits/view/hadith_view.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -109,18 +110,15 @@ class _MyHomePageState extends State<MyHomePage> {
         floatingActionButton: FloatingActionButton(
           backgroundColor: Colors.green,
           onPressed: () async {
-            _launchInBrowserView(toLaunch);
+            //navpush
+            Navigator.push(context, MaterialPageRoute(builder: (context) {
+              return AboutDeveloperPage();
+            }));
           },
           child: const Icon(
             Icons.help_outline,
             size: 32,
           ),
         ));
-  }
-
-  Future<void> _launchInBrowserView(Uri url) async {
-    if (!await launchUrl(url, mode: LaunchMode.inAppBrowserView)) {
-      throw Exception('Could not launch $url');
-    }
   }
 }
